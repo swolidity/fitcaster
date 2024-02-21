@@ -1,0 +1,7 @@
+{
+  "name": "bot",
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "@big-whale-labs/botcaster": "^0.0.28"
+  }
+}
