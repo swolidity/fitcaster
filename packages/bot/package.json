@@ -1,7 +1,14 @@
 {
   "name": "bot",
   "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "dev": "ts-node-dev --pretty --respawn index.ts"
+  },
   "dependencies": {
     "@big-whale-labs/botcaster": "^0.0.28"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
   }
 }
